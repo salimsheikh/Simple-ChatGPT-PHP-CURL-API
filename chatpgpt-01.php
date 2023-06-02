@@ -1,6 +1,6 @@
 <?php
 //https://www.youtube.com/watch?v=Hdi_NitQNrU
-$chatgpt_key = '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';
+$chatgpt_key = '';
 $search_string = "Write a tagline for an ice cream shop.";
 get_chatgpi_service($search_string, $chatgpt_key);
 function get_chatgpi_service($search_string = '', $chatgpt_key = '') {
